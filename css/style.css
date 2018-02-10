@@ -1,26 +1,26 @@
-body{
-    font-family: 'Lato', sans-serif;
+body  {
+    font-family: "Lato", sans-serif;
     }
 
-.logo{
+.logo {
     height: 100px;
     width: 150px;
     }
 
-#container1{
+#container1 {
     display:flex;
     min-height: 125px;
     border: 5px solid silver;
     background-color: #fff;
     }
 
-.top{
+.top {
     float: left;
     padding: 2%;
     width: 50%;
     }
 
-.name{
+.name {
     float: left;
     text-align: right;
     width: 50%;
@@ -29,120 +29,85 @@ body{
     text-decoration-color: #2d3c49;
     }
             
-main{
+main {
     width: 100%;
     }
 
-.work_heading{
+.work_heading {
     text-align: center;
     color: dimgrey;
     }
 
-#container2{
+#container2 {
     display: flex;
     margin: 2%;
     border: 5px solid silver;
     }
             
-p{
+p {
     line-height: 1.75;
     }
             
-#wallpaper{
+#wallpaper {
     padding: 1%;
     margin: 2%;
     align-items: center;
     width: 92%;
     }
 
-.pic_wallpaper{
+.pic_wallpaper {
     width: 100%;
     }
 
-.coder{
+.coder , .web_developer, .speaker {
     float: left;
     padding: 2%;
     width: 30%;            
 }
 
-.web_developer{
-    float:left;
-    padding: 2%;
-    width: 30%;
-    }
-
-.speaker{
-    float: left;
-    padding: 2%;
-    width: 30%;
-    }
-
-.pic_coder{
-    height: 250px;
-    width: 100%;
-    }
-
-.pic_web_developer{
-    height: 250px;
-    width: 100%;
-    }
-
-.pic_speaker{
+.pic_coder ,
+.pic_web_developer,
+.pic_speaker {
     height: 250px;
     width: 100%;
     }
 
 @media screen and (max-width: 550px)
 {
-            #container1{
+            #container1 {
                         display:block;
                         min-width: 280px;
                     } 
     
-            .top{
+            .top {
                     float: none;
                     vertical-align: middle;
                     width: auto;
                 }
     
-            .name{
+            .name {
                 float: none;
                 text-align: center;
                 width: auto;
             }
             
-            #container2{
+            #container2 {
                 margin: 3%;
                 display: block;
             }
             
-            #wallpaper{
+            #wallpaper {
                 width: auto;
                 height: 350px;
             }
     
-            .coder{
+            .coder ,
+            .web_developer,
+            .speaker {
                 float: none;
                 width: auto;
                 align-content: center;
                 height: auto;
                 min-height: 100px;
-            }
-    
-            .web_developer{
-                float: none;
-                width: auto;
-                align-content: center;
-                height: auto;
-                min-height: 100px;
-            }
-    
-            .speaker{
-                float: none;
-                width: auto;
-                align-content: center;
-                height: auto;
-                min-height: 100px;
-            }
-        
+            }           
 }
