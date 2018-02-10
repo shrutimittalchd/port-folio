@@ -8,7 +8,7 @@ body  {
     }
 
 #container1 {
-    display:flex;
+    display: flex;
     min-height: 125px;
     border: 5px solid silver;
     background-color: #fff;
